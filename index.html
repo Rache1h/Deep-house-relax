@@ -1,74 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Deep House Relax</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js" crossorigin="anonymous"></script>
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js" crossorigin="anonymous"></script>
 </head>
-  <body>
+<body>
     <h1>Deep House Relax</h1>
-
     <section class="music-icons">
-
-<div class="lofi_container">
-   
-    <div class="grid-cell" data-song="chill1.mp3">
-    <img src="/images/chill1.webp" alt="Image 1">
-    <div class="lottie-animation" style="display: none;"></div>
-    <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-    <audio class="audio-player" style="display: none;" src="audio/Black Mamba.mp3"></audio>       
-    </div>   
-
-    <div class="grid-cell" data-song="chill2.mp3">
-        <img src="/images/chill2.webp" alt="Image 2">
-        <div class="lottie-animation" style="display: none;"></div>
-        <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-        <audio class="audio-player" style="display: none;" src="audio/pablo remake.mp3"></audio>       
-        </div>   
-
-        <div class="grid-cell" data-song="chill3.mp3">
-            <img src="/images/chill3.webp" alt="Image 3">
-            <div class="lottie-animation" style="display: none;"></div>
-            <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-            <audio class="audio-player" style="display: none;" src="audio/passages.mp3"></audio>       
-            </div>      
-
-            <div class="grid-cell" data-song="chill4.mp3">  
-                <img src="/images/chill4.webp" alt="Image 4">
-                <div class="lottie-animation" style="display: none;"></div>
-                <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-                <audio class="audio-player" style="display: none;" src="audio/because of this.mp3"></audio>       
-                </div>      
-    
-
-                <div class="grid-cell" data-song="chill5.mp3">  
-                    <img src="/images/chill5.webp" alt="Image 5">
-                    <div class="lottie-animation" style="display: none;"></div>
-                <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-                <audio class="audio-player" style="display: none;" src="audio/convex.mp3"></audio>       
-                </div>   
-                                
-                                
-                 <div class="grid-cell" data-song="chill6.mp3">  
-                        <img src="/images/chill6.webp" alt="Image 6">
-                        <div class="lottie-animation" style="display: none;"></div>
-                     <input type="range" min="0" max="100" value="100" class="volume-slider" style="display: none;">
-                    <audio class="audio-player" style="display: none;" src="audio/in other words.mp3"></audio>       
-                 </div>                 
-
-   
-</div>
-</section>
-
-<footer>
-    <div id="date-time"></div>
-</footer>
-
-<script src="index.js"></script>
-  </body>
-
+        <div class="lofi_container" id="songsContainer"></div>
+    </section>
+    <footer>
+        <div id="date-time"></div>
+    </footer>
+    <script src="index.js"></script>
+</body>
 </html>
